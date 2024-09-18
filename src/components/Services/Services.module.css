@@ -1,0 +1,39 @@
+#services {
+    padding: 3rem 0;
+}
+
+.services__card {
+    background-color: #b9fd50;
+}
+
+.services__header {
+    height: 6rem;
+    min-height: 6rem;
+}
+
+.sevices__img {
+    height: 3rem;
+}
+
+@media (max-width: 768px) {
+    #services {
+        padding: 2rem 0;
+    }
+
+    .services__card {
+        background-color: #212529;
+    }
+
+    .sevices__img {
+        height: 2rem;
+    }
+
+    .services__header {
+        height: auto !important;
+        margin-bottom: 1rem;
+    }
+
+    .services__heading {
+        color: #FFFFFF !important;
+    }
+}

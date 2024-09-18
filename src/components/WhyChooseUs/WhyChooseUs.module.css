@@ -1,0 +1,54 @@
+#whychooseus {
+    padding: 3rem 0;
+    background-color: #2D2D2D !important;
+}
+
+.whychooseus__meetingImgWrap {
+    height: 17rem;
+}
+
+.whychooseus__title span {
+    position: relative;
+}
+
+.whychooseus__title span::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10rem;
+    background-color: #FFFFFF;
+    height: 0.2rem;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+    #whychooseus {
+        padding: 2rem 0;
+        background-color: #FFFFFF !important;
+    }
+
+    #whychooseus h4,
+    #whychooseus h2,
+    #whychooseus p {
+        color: #2D2D2D !important;
+    }
+
+    #whychooseus br {
+        display: none;
+    }
+
+    .btn-green {
+        background-color: #2D2D2D !important;
+        color: #b9fd50 !important;
+    }
+
+    .whychooseus__title span::after {
+        display: none;
+    }
+
+    .whychooseus__title span{
+        border-bottom: 3px solid #212529;
+    }
+
+}

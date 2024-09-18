@@ -1,0 +1,25 @@
+#footer {
+    padding: 3rem 0;
+}
+
+.footer__img {
+    height: 2rem;
+}
+
+.footer__contactImg {
+    height: 1rem;
+}
+
+.footer__contactSocialImg {
+    height: 1.5rem;
+}
+
+.footer__contactSocialImg:hover path {
+    fill: #b9fd50;
+}
+
+@media(max-width: 768px) {
+    #footer {
+        padding: 2rem 0;
+    }
+}

@@ -1,42 +1,92 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main {
+  padding-top: 3.7rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/*FONT SIZE*/
+.fs-10px {
+  font-size: 10px !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs-11px {
+  font-size: 11px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.fs-12px {
+  font-size: 12px !important;
 }
 
-.card {
-  padding: 2em;
+.fs-13px {
+  font-size: 13px !important;
 }
 
-.read-the-docs {
-  color: #888;
+.fs-14px {
+  font-size: 14px !important;
+}
+
+.fs-15px {
+  font-size: 15px !important;
+}
+
+/*FONT WEIGHT*/
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+/* COLORS */
+.text-green {
+  color: #b9fd50 !important;
+}
+
+/* BACKGROUNDS */
+.bg-green {
+  background-color: #b9fd50 !important;
+}
+
+/* BUTTONS */
+.btn-green {
+  background-color: #b9fd50 !important;
+  color: #212529 !important;
+}
+
+.btn-black {
+  background-color: #414141 !important;
+  color: #FFFFFF !important;
+}
+
+/*CURSORS*/
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* MIN-HEIGHTS */
+.min-h-100 {
+  min-height: 100% !important;
 }
