@@ -8,6 +8,7 @@
 
 .services__card {
     background-color: #b9fd50;
+    cursor: pointer;
 }
 
 .services__header {
@@ -17,6 +18,27 @@
 
 .sevices__img {
     height: 3rem;
+}
+
+.services__body {
+    left: -100%;
+    background-color: #00000072;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.services__body p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.services__card:hover .services__body {
+    left: 0;
 }
 
 
@@ -57,5 +79,13 @@
 
     .services__heading {
         color: #FFFFFF !important;
+    }
+
+    .services__body {
+        position: unset !important;
+    }
+
+    .services__body p {
+        display: block !important;
     }
 }
