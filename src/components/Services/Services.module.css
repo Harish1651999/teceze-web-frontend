@@ -2,6 +2,10 @@
     padding: 3rem 0;
 }
 
+.services__row {
+    width: 62%;
+}
+
 .services__card {
     background-color: #b9fd50;
 }
@@ -15,21 +19,39 @@
     height: 3rem;
 }
 
+
+@media(max-width: 1200px) {
+    .services__row {
+        width: 75%;
+    }
+}
+
+@media(max-width: 991px) {
+    .services__row {
+        width: 85%;
+    }
+}
+
 @media (max-width: 768px) {
     #services {
         padding: 2rem 0;
     }
 
+    .services__row {
+        width: 100%;
+    }
+
     .services__card {
-        background-color: #212529;
+        background-color: #000000;
     }
 
     .sevices__img {
-        height: 2rem;
+        height: 1.7rem;
     }
 
     .services__header {
         height: auto !important;
+        min-height: auto !important;
         margin-bottom: 1rem;
     }
 

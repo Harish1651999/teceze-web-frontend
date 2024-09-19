@@ -30,7 +30,7 @@ const Testimonial = () => {
     autoplaySpeed: 2000,
     responsive: [
       {
-        breakpoint: 576,
+        breakpoint: 768,
         settings: {
           dots: true,
         },
@@ -49,10 +49,10 @@ const Testimonial = () => {
           We survey all of our clients, the results of which go directly <br />{" "}
           to our CEO.
         </p>
-        <div className="position-relative">
+        <div className={`position-relative ${classes.testimonial__slider}`}>
           <Slider {...settings} ref={sliderRef}>
             <div
-              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4`}
+              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4 border border-1`}
             >
               <div className="row align-items-center">
                 <div className="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-12">
@@ -93,7 +93,7 @@ const Testimonial = () => {
               </div>
             </div>
             <div
-              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4`}
+              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4 border border-1`}
             >
               <div className="row align-items-center">
                 <div className="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-12">
@@ -134,7 +134,7 @@ const Testimonial = () => {
               </div>
             </div>
             <div
-              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4`}
+              className={`${classes.testimonial__item} p-4 p-lg-5 rounded-5 mt-4 border border-1`}
             >
               <div className="row align-items-center">
                 <div className="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-12">
@@ -192,13 +192,13 @@ const Testimonial = () => {
                       cy="20.5"
                       r="20.5"
                       transform="matrix(-1 0 0 1 41 0)"
-                      fill="grey"
+                      fill="white"
                       fillOpacity="0.52"
                     />
                   </g>
                   <path
                     d="M22.6276 13.5381L24.1729 15.0833L19.1536 20.1136L24.1729 25.1438L22.6276 26.689L16.0521 20.1136L22.6276 13.5381Z"
-                    fill="white"
+                    fill="black"
                   />
                   <defs>
                     <filter
@@ -244,13 +244,13 @@ const Testimonial = () => {
                       cx="20.5"
                       cy="20.5"
                       r="20.5"
-                      fill="grey"
+                      fill="white"
                       fillOpacity="0.52"
                     />
                   </g>
                   <path
                     d="M18.3724 13.5381L16.8271 15.0833L21.8464 20.1136L16.8271 25.1438L18.3724 26.689L24.9479 20.1136L18.3724 13.5381Z"
-                    fill="white"
+                    fill="black"
                   />
                   <defs>
                     <filter

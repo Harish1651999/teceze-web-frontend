@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <header className="fixed-top d-flex align-items-center bg-dark">
+    <header className="fixed-top d-flex align-items-center bg-black">
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
           <div className={classes["app-logo-wrap"]}>

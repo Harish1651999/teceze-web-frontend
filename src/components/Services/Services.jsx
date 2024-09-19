@@ -5,14 +5,16 @@ import classes from "./Services.module.css";
 
 const Services = () => {
   return (
-    <section id={classes.services} className="bg-dark text-center">
+    <section id={classes.services} className="bg-black text-center">
       <div className="container">
         <h3 className="text-white fs-4 fw-600">Services</h3>
         <p className="text-white">
           Strategic services drive digital success with tailored, comprehensive
           approaches
         </p>
-        <div className="row justify-content-center mt-5">
+        <div
+          className={`row justify-content-center mt-5 mx-auto ${classes.services__row}`}
+        >
           <div className="col-xl-4 col-lg-4 col-md-4 mb-4">
             <div
               className={`${classes.services__card} p-2 p-md-4 min-h-100 rounded-4`}

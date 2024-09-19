@@ -2,6 +2,11 @@
     padding: 3rem 0;
 }
 
+.testimonial__slider {
+    width: 75% !important;
+    margin: 0 auto;
+}
+
 .testimonial__item {
     background-color: #eaeaea;
 }
@@ -23,17 +28,24 @@
 
 .rel-slide-icon li:nth-child(1) {
     top: 50%;
-    left: -3rem;
+    left: -5rem;
 }
 
 .rel-slide-icon li:nth-child(2) {
     top: 50%;
-    right: -3rem;
+    right: -5rem;
+}
+
+@media (max-width: 991px) {
+    .testimonial__slider {
+        width: 90% !important;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
     #testimonial {
-        padding: 2rem 0;
+        padding: 2rem 0 3rem;
     }
 
     .rel-slide-icon li:nth-child(1),

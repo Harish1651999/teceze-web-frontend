@@ -1,5 +1,9 @@
 #hero {
-    padding: 3rem 0;
+    padding: 5rem 0 3rem;
+    background-image: url(/src/assets/colorBall.png);
+    background-position: 55% 10%;
+    background-size: 45%;
+    background-repeat: no-repeat;
 }
 
 #hero h1 {
@@ -8,7 +12,7 @@
 
 #hero .description {
     position: relative;
-    background-color: #212529 !important;
+    background-color: #000000 !important;
     z-index: 1;
 }
 

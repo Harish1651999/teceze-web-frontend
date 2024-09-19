@@ -66,6 +66,10 @@ main {
 }
 
 /* BACKGROUNDS */
+.bg-black {
+  background-color: #000000 !important;
+}
+
 .bg-green {
   background-color: #b9fd50 !important;
 }

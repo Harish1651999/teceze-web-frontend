@@ -4,7 +4,7 @@ import classes from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <section id={classes.hero} className="bg-dark text-center">
+    <section id={classes.hero} className="bg-black text-center">
       <div className="container">
         <h1 className="fw-700 text-white mb-4">
           <span className="text-green">Boost</span> Your Brand with <br />{" "}

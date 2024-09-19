@@ -6,7 +6,7 @@ import phone from "../../assets/phone.svg";
 
 const Footer = () => {
   return (
-    <footer id={classes.footer} className="bg-dark">
+    <footer id={classes.footer} className="bg-black">
       <div className="container">
         <div className="row pb-3 border-bottom border-light">
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-3 mb-lg-0">
